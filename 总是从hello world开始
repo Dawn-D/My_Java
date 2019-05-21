@@ -7,3 +7,15 @@ Java开发分为Java EE（企业级）、Java SE（标准版）、Java ME（嵌�
 然后然后，我们要进行路径配置。“javac.exe”和“java.exe”这两个命令不属于Windows，要想使用，需配置PATH环境属性。
 右击“此电脑”-->“属性”-->“系统高级设置”-->“高级”-->“环境变量”-->“系统变量”-->“Path”-->“编辑”，将JDK的路径配置到“path”中。
 好的，我们终于，要开始了。
+新建一个txt,将其后缀改成.java就是一个Java文件，eclipse之类的Java编程软件也十分好用。
+好的，我们暂且将该文件取名为test，代码如下：
+public class test{
+    public static void main(String args[]){
+        System.out.println("Hello World!");
+    }
+}
+
+应该，是对的吧。。。
+保存文件，打开命令提示符，进入该文件所在文件夹。编译：javac test.java
+若无错误提示，java test
+就可以看见我们的hello world啦！

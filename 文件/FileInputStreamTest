@@ -1,3 +1,4 @@
+//能打印整篇程序的程序~~~///(^v^)\\\~~~
 import java.io.*;
 public class FileInputStreamTest{
 	public static void main(String args[]) throws IOException{
